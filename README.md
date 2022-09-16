@@ -1,3 +1,3 @@
 # Proyecto002
 Corresponde a mi Proyecto número 2 del Bootcamp, donde se hizo una app del gimnasio One More Rep, donde se pueda aplicar las 4 operaciones CRUD con datos de los socios para crear, leer, actualizar y borrar recordatorios de ejercicios. 
-Durante el desarrollo del proyecto, tuve problemas para subir a github los ultimos cambios y terminé creando un nuevo repositorio con dichos cambios, por lo que perdí los commmits que tenía.
+Durante el desarrollo del proyecto, tuve problemas para subir a github los ultimos cambios y terminé creando un nuevo repositorio con dichos cambios, por lo que perdí los commits que tenía.

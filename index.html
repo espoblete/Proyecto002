@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/proyecto02.css">
+  <link rel="shortcut icon" href="./img/dumbbell-solid.png" type="image/pesa-icono">
+  <title>Gym One More Rep</title>
+</head>
+
+<body>
+  <header>
+    <div class="navdiv">
+      <img src="./img/LogoGym.png" alt="logo">
+      <p class="navp">Ingresa los datos de tus ejercicios</p>
+      <p class=></p>
+    </div>
+  </header>
+  <main>
+    <section class="maindiv1">
+      <fieldset class="marco">
+        <legend>
+          <h2>Ingresa recordatorios</h2>
+        </legend>
+        <form id="form">
+          <p><input type="text" id="socio" name="socio" placeholder="Nombre y Apellido del Socio"></p>
+          <p><input type="text" id="ejercicio" name="ejercicio" placeholder="Nombre del Ejercicio"></p>
+          <p><input type="number" id="rep" name="rep" placeholder="N° de Repeticiones"></p>
+          <p><input type="number" id="series" name="series" placeholder="N° de Series"></p>
+          <p><button id="agregar">Agregar Recordatorio</button></p>
+          <p><button id="actualizar">Actualizar</button></p>
+        </form>
+      </fieldset>
+
+      <div id="mensajito"></div>
+      <div id="mensajito2"></div>
+
+      <fieldset class="marco">
+        <legend>
+          <h2>Recordatorio de Ejercicios</h2>
+        </legend>
+        <div id="recordatorios">
+        </div>
+      </fieldset>
+    </section>
+
+  </main>
+
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="sweetalert2.all.min.js"></script>
+  <script src="./js/proyecto02.js"></script>
+  <script src="https://kit.fontawesome.com/974d0a103b.js" crossorigin="anonymous"></script>
+
+</body>
+</html>

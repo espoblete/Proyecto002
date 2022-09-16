@@ -1,0 +1,61 @@
+.navdiv {
+    background-color: black;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    text-transform: uppercase;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+
+.maindiv1 {
+    background-image: url('/img/fondoGymYFoto.png');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.maindiv2 {
+    color: white;
+    size: 40px;
+    margin-left: 50px;
+}
+
+.marco {
+    background-color: #2e29263a;
+    color: white;
+    margin-left: 50px;
+    margin-right: 60%;
+}
+
+#mensajito {
+    color: white;
+    font-weight: 800;
+    padding-top: 20px;
+    margin-left: 70px;
+}
+
+#mensajito2 {
+    display: none;
+    color: red;
+    font-weight: 800;
+    padding-top: 20px;
+    margin-left: 70px;
+}
+
+#actualizar{
+    display: none;
+}
+
+article{
+    display: flex; 
+    justify-content: space-between;
+     
+}
+
+article p{
+    margin: 0 20px;
+}
+

@@ -9,8 +9,8 @@
 }
 
 main {
-    background-image: url('/img/fondoGymYFoto.png');
-    background-color: #2e2926;
+    background-image: url(/Proyecto002/img/fondoGymYFoto.png);
+    
     background-size: cover;
     background-position: center;
     min-height: 100vh;

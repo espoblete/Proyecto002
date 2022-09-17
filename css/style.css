@@ -9,7 +9,7 @@
 }
 
 main {
-    background-image: url("/img/fondoGymYFoto.png");
+    background-image: url('/img/fondoGymYFoto.png');
     background-color: #2e2926;
     background-size: cover;
     background-position: center;
